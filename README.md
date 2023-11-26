@@ -5,7 +5,7 @@ Dogiclub Art are first of its kind Doggies like TRC20 [check here](https://githu
 1111
 
 ## Method
- - mint: `data:image/png;base64,XGpUY8Lw7RYMUZmPSYrjzmA485j58+kwc+vKZePtNXl0mZjGvONFZVzRmhL+XvPcdY+H5TKxeY2H5TJ/Ka7LrMHN5mu8zXeZrM+s/Yz9TP3MczQ95o+80feGn3ho94aIaPeGiGmHVAysBKQ0Qg0SuCpUqVKlQOFy5c3RhGcuFfTqVwEMGcwGZm8x8uczcIxDA5zAYGUwuWTM3AymJBzgjLYMHgUuLxCHAk04OjMFde8kBI5e11jq4XipjNsjYXgezMUrrqjqCYmpKA09I/qS939Iqn4w4MWOrX8BAVircrpPlCHUfEG/V+YyvEZbLfhEFYJ1oPhY`
+ - mint: `data:image/png;base64,XGpUY8Lw7RYMUZmPSYrjzmA485j58+kwc+vKZePtNXl0mZjGvONFZVzRmhL+XvPcdY+H5TKxeY2H5TJKa7LrMHN5mu8zXeZrM+sYz9TP3MczQ95o+80feGn3ho94aIaPeGiGmHVAysBKQ0Qg0SuCpUqVKlQOFy5c3RhGcuFfTqVwEMGcwGZm8x8uczcIxDA5zAYGUwuWTM3AymJBzgjLYMHgUuLxCHAk04OjMFde8kBI5e11jkiAlisuj922MKPyyq`
  - transfer: TBA
 
 ## Mint Dogiclub with nodejs
@@ -28,7 +28,7 @@ const tronWeb = new TronWeb(fullNode, solidityNode, eventServer, privateKey);
 
 const blackHole = "TMFHAfhyAs981DqcE74g76MmbS3jLTMTdX";  //black hole address
 
-const memo = 'data:image/png;base64,XGpUY8Lw7RYMUZmPSYrjzmA485j58+kwc+vKZePtNXl0mZjGvONFZVzRmhL+XvPcdY+H5TKxeY2H5TJ/Ka7LrMHN5mu8zXeZrM+s/Yz9TP3MczQ95o+80feGn3ho94aIaPeGiGmHVAysBKQ0Qg0SuCpUqVKlQOFy5c3RhGcuFfTqVwEMGcwGZm8x8uczcIxDA5zAYGUwuWTM3AymJBzgjLYMHgUuLxCHAk04OjMFde8kBI5e11jq4XipjNsjYXgezMUrrqjqCYmpKA09I/qS939Iqn4w4MWOrX8BAVircrpPlCHUfEG/V+YyvEZbLfhEFYJ1oPhY';  
+const memo = 'data:image/png;base64,XGpUY8Lw7RYMUZmPSYrjzmA485j58+kwc+vKZePtNXl0mZjGvONFZVzRmhL+XvPcdY+H5TKxeY2H5TJKa7LrMHN5mu8zXeZrM+sYz9TP3MczQ95o+80feGn3ho94aIaPeGiGmHVAysBKQ0Qg0SuCpUqVKlQOFy5c3RhGcuFfTqVwEMGcwGZm8x8uczcIxDA5zAYGUwuWTM3AymJBzgjLYMHgUuLxCHAk04OjMFde8kBI5e11jkiAlisuj922MKPyyq';  
 
 async function main() {
 
@@ -51,7 +51,7 @@ main().then(() => {
 ## Mint TRXI with TokenPocket Wallet
  - Receiver address:TMFHAfhyAs981DqcE74g76MmbS3jLTMTdX.
  - Transfer amount 69 TRX
- - Click on Advanced Settings and fill in `data:image/png;base64,XGpUY8Lw7RYMUZmPSYrjzmA485j58+kwc+vKZePtNXl0mZjGvONFZVzRmhL+XvPcdY+H5TKxeY2H5TJ/Ka7LrMHN5mu8zXeZrM+s/Yz9TP3MczQ95o+80feGn3ho94aIaPeGiGmHVAysBKQ0Qg0SuCpUqVKlQOFy5c3RhGcuFfTqVwEMGcwGZm8x8uczcIxDA5zAYGUwuWTM3AymJBzgjLYMHgUuLxCHAk04OjMFde8kBI5e11jq4XipjNsjYXgezMUrrqjqCYmpKA09I/qS939Iqn4w4MWOrX8BAVircrpPlCHUfEG/V+YyvEZbLfhEFYJ1oPhY`
+ - Click on Advanced Settings and fill in `data:image/png;base64,XGpUY8Lw7RYMUZmPSYrjzmA485j58+kwc+vKZePtNXl0mZjGvONFZVzRmhL+XvPcdY+H5TKxeY2H5TJKa7LrMHN5mu8zXeZrM+sYz9TP3MczQ95o+80feGn3ho94aIaPeGiGmHVAysBKQ0Qg0SuCpUqVKlQOFy5c3RhGcuFfTqVwEMGcwGZm8x8uczcIxDA5zAYGUwuWTM3AymJBzgjLYMHgUuLxCHAk04OjMFde8kBI5e11jkiAlisuj922MKPyyq`
 
 
 
